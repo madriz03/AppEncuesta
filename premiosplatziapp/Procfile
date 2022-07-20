@@ -1,1 +1,2 @@
-web: gunicorn locallibrary.wsgi --log-file -
+web: gunicorn http://premiosplatziapp.wsgi.py --log-file -
+
